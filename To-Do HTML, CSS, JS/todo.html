@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todostyles.css" />
+    <title>To-Do</title>
+  </head>
+  <body>
+    <div class="header" id="headerDiv">
+      <h2>My simple To-Do</h2>
+      <div class="addline">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Your task for today..."
+        />
+        <button onclick="newTask()" class="addBtn">Add task</button>
+      </div>
+    </div>
+    <div>
+      <ul id="listUl">
+        <li class="done">Sport 15 min</li>
+        <li>Breakfast</li>
+        <li>Work</li>
+      </ul>
+    </div>
+    <script src="todoscript.js"></script>
+  </body>
+</html>
